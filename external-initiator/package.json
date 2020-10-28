@@ -1,0 +1,18 @@
+{
+  "name": "chainlink-assessment",
+  "version": "0.0.1",
+  "description": "Chainlink assessment",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bradley Suira",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "0.0.10",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "web3": "^1.3.0"
+  }
+}
